@@ -1,36 +1,57 @@
 header h1{
     font-size: 30pt;
     color: white;
-    font-family: 'Yuji Boku', serif;
 }
 
 header{
+    display: flex;
     text-align: center;
-    background-color: transparent;
-    height: auto;
-    padding: 10px;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .mainNav{
-    display: flex;
-    justify-content: space-around;
+    text-align: center;
 }
 
 .mainNav a{
     color: white;
     text-decoration: none;
     font-size: 15pt;
+    padding: 0 20px;
 }
 .mainNav a:hover{
     color:#d7cbb1;
 }
 
+ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    color: white;
+}
+ul li a{
+    padding: 0 10px;
+}
+
+ul li img {
+
+    width: 20px;
+    height: 20px;
+
+}
+
 body, html{
     height: 100%;
     margin: 0;
-    font-family: 'Yuji Boku', serif;
-    background-color: black;
+    font-family: 'ZCOOL KuaiLe', cursive;
 }
+
+body{
+    background-image: url("Pictures/bi.gif");
+}
+
 
 .hero-image {
     background-image: url("Pictures/Wehnallsleep-test.png");
@@ -81,4 +102,47 @@ footer p{
       text-align: center;
       color: white;
       font-family: 'Courier New', Courier, monospace;
+}
+
+aside{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+aside a{
+    text-decoration: none;
+    color: white;
+}
+
+aside a:hover{
+    color: grey;
+}
+
+.albumDetails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.albumArt{
+    display: flex;
+    flex-direction: row;
+}
+
+ol{
+    display: flex;
+    flex-direction: column;
+}
+
+#albumsStuff{
+    text-align: center;
+    color:white;
+}
+
+li {
+    font-size: 15pt;
+    text-align: left;
+    color:white;
+    margin: 4px;
 }
