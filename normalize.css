@@ -523,51 +523,80 @@ li {
 
 .tourContents{
   display: flex;
-  text-align: center;
-  justify-content: space-between;
-  align-items: center;
+  width: 100%;
   flex-direction: column;
-  text-align: right;
 }
 
-.tourContents ul li{
+.tourContents ul{
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  list-style-type: none;
   align-items: center;
-  text-align: right;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.tourContents hr{
+  width: 70%;
+  color: white;
+  margin: 0 auto;
+}
+
+.tickets{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .reg{
   display: block;
-  color: grey;
   text-align: center;
+}
+.ContactUs{
+  padding: 50px;
+	width: 900px;
+	height: auto;
+	border-radius: 25px;
+	background-color:lightgray;
+	margin: 15px;
+	color: black;
+	text-align: center;
+  margin: 0 auto;
 }
 
 
+@media (max-width: 35em) {
+  header{
+    position: fixed;
+    flex-wrap: wrap;
+    inset: 0 0 0 30%;
+    padding: 10rem 2em;
+    background: hsl(0 0% 100% /0.1);
+    backdrop-filter: blur(1rem);
+  }
+  .hero-image{
+    display: none;
+  }
+  iframe{
+    height: auto;
+    width: auto;
+  }
 
-@media (max-width:375px) {
-    iframe{
-        height: auto;
-        width: auto;
-    }
+  aside img{
+    width: 100%;
+    height: auto;
+  }
 
-    aside img{
-        width: 100%;
-        height: auto;
-    }
-
-    header a{
-      width: auto;
-    }
-    
-    header{
-        height: auto;
-    }   
-    
-    .albumDetails img{
-        width: 100%;
-        height: auto;
+  header a{
+    width: auto;
+  }
+  
+  header{
+    height: auto;
+  }   
+  
+  .albumDetails img{
+    width: 100%;
+    height: auto;
     }
 }
