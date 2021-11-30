@@ -507,7 +507,7 @@ li {
 	margin-left: 75px;
   margin-right: 75px;
   font-size: 20pt;
-  font-family: 'Caveat', cursive;
+  font-family: 'M PLUS 1 Code', sans-serif;
 }
 
 .tourContainer h1{
@@ -517,7 +517,7 @@ li {
 #tourDetails{
   font-size: 25pt;
   text-align: center;
-  font-family: 'Caveat', cursive;
+  font-family: 'M PLUS 1 Code', sans-serif;
 }
 
 
@@ -532,6 +532,7 @@ li {
   align-items: center;
   justify-content: space-between;
   list-style-type: none;
+  font-family: 'M PLUS 1 Code', sans-serif;
 }
 
 .tourContents hr{
