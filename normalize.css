@@ -350,7 +350,7 @@
   
 header h1{
     font-size: 30pt;
-    color: white;
+    color: #BFB8AE;
 }
 
 header{
@@ -371,14 +371,14 @@ header{
     padding: 0 20px;
 }
 .mainNav a:hover{
-    color:#d7cbb1;
+    color:#595451;
 }
 
 ul{
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    color: white;
+    color: #BFB8AE;
 }
 ul li a{
     padding: 0 10px;
@@ -410,28 +410,27 @@ body{
 }
 
 .hero-text {
-    text-align: center;
-    position: absolute;
-    top: 84%;
-    left: 97%;
-    transform: translate(-50%, -50%);
-    color: white;
+  width: 190px;
+  background-color: #BFB8AE;
+  border-radius: 20px;
+  text-align: center;
+  position: absolute;
+  top: 75%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  color:#F2EADF;
 }
 
-.hero-text button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 10px 25px;
+.hero-text a {
     color: black;
     background-color: #ddd;
     text-align: center;
     cursor: pointer;
 }
 
-.hero-text button:hover {
+.hero-text a:hover {
     background-color: #555;
-    color: white;
+    color: #261B14;
 }
 
 main{
@@ -566,18 +565,36 @@ li {
 }
 
 
-@media (max-width: 35em) {
+@media (max-width: 360px) {
   header{
-    position: fixed;
     flex-wrap: wrap;
-    inset: 0 0 0 30%;
-    padding: 10rem 2em;
-    background: hsl(0 0% 100% /0.1);
-    backdrop-filter: blur(1rem);
   }
   .hero-image{
-    display: none;
+    background-image: url("Pictures/Wehnallsleep-test.png");
+    height: 120px;
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
   }
+
+  .hero-text{
+    width: 60px;
+    background-color: #BFB8AE;
+    border-radius: 20px;
+    text-align: center;
+    position: absolute;
+    top: 95%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    color:#F2EADF;
+  }
+
+  .hero-text a p{
+    font-size: 5pt;
+  }
+
   iframe{
     height: auto;
     width: auto;
@@ -599,5 +616,9 @@ li {
   .albumDetails img{
     width: 100%;
     height: auto;
+    }
+
+    .ContactUs{
+      width: auto;
     }
 }
