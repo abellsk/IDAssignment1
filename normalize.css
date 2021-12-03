@@ -564,11 +564,38 @@ li {
   margin: 0 auto;
 }
 
+.allmusic{
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 50%;
+  justify-content: space-around;
+}
+
+.allmusic img:hover{
+  opacity: 50%;
+}
+
+.allmusic a{
+  color: white;
+}
+
+.allmusic a:link{
+  text-decoration: none;
+}
+
+#albumart{
+  width: 400px;
+  height: 400px;
+}
+
 
 @media (max-width: 360px) {
   header{
     flex-wrap: wrap;
   }
+
   .hero-image{
     background-image: url("Pictures/Wehnallsleep-test.png");
     height: 120px;
