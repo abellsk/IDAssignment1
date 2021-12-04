@@ -1,5 +1,5 @@
-# my-newbie-repo
-Billie Eillish website
+# Assignment 1
+Billie Eillish website.
 This website is about billie eillish a singer and songwriter. A website to show off one of her new songs
 and for others to view tour dates and check out other music about her
 
@@ -22,19 +22,19 @@ Features
 - In the last page, the music page, there will be a list of all billies album covers, and when hovered, will reduce the opacity, so the user is aware that it is clickable. Each album picture will redirect them to respecitive spotify music page where they can listen to her music when clicked on.
 
 Technologies used
-I have used HTML and CSS, with some flexbox and responsive elements to construct my projects
+-I have used HTML and CSS, with some flexbox and responsive elements to construct my projects
 
 Testing
-You can try interacting with the video to see if the videos play, or even under the schedule page, you can try clicking on the 'tickets' button and it should redirect you to the covid page
+-You can try interacting with the video to see if the videos play, or even under the schedule page, you can try clicking on the 'tickets' button and it should redirect you to the covid page
 
-note. 
-Responsive isnt well done, except for 'Moto G4' mode. Everything else is not optimized for responsive.
+Notes. 
+-Responsive isnt well done, except for 'Moto G4' mode. Everything else is not optimized for responsive.
 
 Credits.
-Content - Music songlist was copied and referenced from google and spotify.
+- Music songlist was copied and referenced from google and spotify.
 
-Media
-Pictures - all album pictures were retrieved from spotify
+Media Pictures
+- all album pictures were retrieved from spotify
 
 Acknowledgements
 I have receieved inspritation from Billie Eillish, The Weeknd, Ariana Grande, Imagine Dragons and Taylor Swift's Official website for this project.
