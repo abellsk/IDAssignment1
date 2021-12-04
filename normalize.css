@@ -598,8 +598,6 @@ li {
   height: 400px;
 }
 
-
-
 @media (max-width: 360px) {
   header{
     flex-wrap: wrap;
