@@ -534,6 +534,14 @@ li {
   font-family: 'M PLUS 1 Code', sans-serif;
 }
 
+.tourContents li a{
+  color: white;
+}
+
+.tourContents li a:link{
+  text-decoration: none;
+}
+
 .tourContents hr{
   width: 70%;
   color: white;
@@ -589,6 +597,7 @@ li {
   width: 400px;
   height: 400px;
 }
+
 
 
 @media (max-width: 360px) {
